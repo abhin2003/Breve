@@ -1,23 +1,23 @@
-import "./userInfo.css"
-import { useUserStore } from "../../../lib/userStore";
+import "./userInfo.css";
+
+// Remove Firebase import
+// import { useUserStore } from "../../../lib/userStore";
 
 const Userinfo = () => {
+  // Remove Firebase usage
+  // const { currentUser } = useUserStore();
 
-  const { currentUser } = useUserStore();
+  // Simulated currentUser data
+  const currentUser = {
+    avatar: "./avatar.png",
+    username: "JohnDoe",
+  };
 
   return (
-    <div className='userInfo'>
-      <div className="user">
-        <img src={currentUser.avatar || "./avatar.png"} alt="" />
-        <h2>{currentUser.username}</h2>
-      </div>
-      <div className="icons">
-        <img src="./more.png" alt="" />
-        <img src="./video.png" alt="" />
-        <img src="./edit.png" alt="" />
-      </div>
+    <div >
+    
     </div>
-  )
-}
+  );
+};
 
-export default Userinfo
+export default Userinfo;

@@ -10,20 +10,25 @@ body {
   background-image: url("/bg.jpg");
   display: flex;
   align-items: center;
+  width: 100vw;
   justify-content: center;
   height: 100vh;
   color: white;
 }
 
 .container {
-  width: 80vw;
+  width: calc(50vw + 100px); /* Increase width from the right by 100px */
   height: 90vh;
   background-color: rgba(17, 25, 40, 0.75);
   backdrop-filter: blur(19px) saturate(180%);
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.125);
   display: flex;
+  margin-left: 80px; /* Decrease container width from the left by 50px */
 }
+
+
+
 
 .loading{
   padding: 50px;

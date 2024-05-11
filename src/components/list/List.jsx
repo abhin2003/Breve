@@ -1,6 +1,6 @@
-import ChatList from "./chatList/ChatList"
-import "./list.css"
-import Userinfo from "./userInfo/Userinfo"
+import ChatList from "./chatList/ChatList";
+import "./list.css";
+import Userinfo from "./userInfo/Userinfo";
 
 const List = () => {
   return (
@@ -8,7 +8,7 @@ const List = () => {
       <Userinfo/>
       <ChatList/>
     </div>
-  )
-}
+  );
+};
 
-export default List
+export default List;
