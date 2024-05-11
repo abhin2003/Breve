@@ -22,7 +22,7 @@ const Detail = () => {
       <div className="user">
         <img src={user?.avatar || "./avatar.png"} alt="" />
         <h2>{user?.username}</h2>
-        <p1>Breve</p1>
+        <p3>Breve</p3>
       </div>
       <div className="info">
         {/* Remaining UI elements */}
